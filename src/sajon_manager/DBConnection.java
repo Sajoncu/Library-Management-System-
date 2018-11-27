@@ -22,7 +22,6 @@ public class DBConnection {
             return con;
         } 
         catch (Exception e){
-        
             JOptionPane.showMessageDialog(null, e);
             return null;
         }
