@@ -218,7 +218,7 @@ public class AddNewBook extends javax.swing.JFrame {
             stmt.setString(3, (String) edition.getSelectedItem());
             stmt.setString(4, publisher.getText());
             stmt.setString(5, price.getText());
-            stmt.setString(5, pages.getText());
+            stmt.setString(6, pages.getText());
             stmt.execute();
             JOptionPane.showMessageDialog(null, "Book Added Successfully");
             stmt.close();
